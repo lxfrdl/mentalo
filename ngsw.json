@@ -19,7 +19,7 @@
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
         "https://lxfrdl.github.io/mentalo/assets/audio/anfg1.mp3",
