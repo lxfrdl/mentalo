@@ -4,12 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href 'https://lxfrdl.github.io/mentalo/'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "serve": "http-server -p 8080 -c-1 dist/mentalo/",
-    "pwa": "ng build --prod && npm run serve"
+    "pwa": "npm run build && npm run serve",
+    "ghpages": "ngh -d dist/mentalo",
+    "deploy": "npm run build && npm run ghpages"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +37,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "angular-cli-ghpages": "^0.5.3",
     "codelyzer": "~4.5.0",
     "http-server": "^0.11.1",
     "jasmine-core": "~2.99.1",

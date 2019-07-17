@@ -1,11 +1,11 @@
 {
-  "name": "mentalo",
-  "short_name": "mentalo",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Mentalo",
+  "short_name": "Mentalo",
+  "theme_color": "#b61e00",
+  "background_color": "#000000",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "https://lxfrdl.github.io/mentalo/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
