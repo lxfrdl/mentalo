@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "index": "https://lxfrdl.github.io/mentalo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://lxfrdl.github.io/mentalo/es2015-polyfills.4a4cfea0ce682043f4e9.js",
+        "https://lxfrdl.github.io/mentalo/favicon.ico",
+        "https://lxfrdl.github.io/mentalo/index.html",
+        "https://lxfrdl.github.io/mentalo/main.f7bfdc9547a200a66a5a.js",
+        "https://lxfrdl.github.io/mentalo/polyfills.407a467dedb63cfdd103.js",
+        "https://lxfrdl.github.io/mentalo/runtime.a5dd35324ddfd942bef1.js",
+        "https://lxfrdl.github.io/mentalo/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://lxfrdl.github.io/mentalo/assets/audio/anfg1.mp3",
+        "https://lxfrdl.github.io/mentalo/assets/audio/anfg2.mp3",
+        "https://lxfrdl.github.io/mentalo/assets/audio/anfg3.mp3",
+        "https://lxfrdl.github.io/mentalo/assets/audio/ende1.mp3",
+        "https://lxfrdl.github.io/mentalo/assets/audio/ende2.mp3",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-128x128.png",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-144x144.png",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-152x152.png",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-192x192.png",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-384x384.png",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-512x512.png",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-72x72.png",
+        "https://lxfrdl.github.io/mentalo/assets/icons/icon-96x96.png",
+        "https://lxfrdl.github.io/mentalo/assets/img/m1.png",
+        "https://lxfrdl.github.io/mentalo/assets/img/m2.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://lxfrdl.github.io/mentalo/assets/audio/anfg1.mp3": "b88bce8076443240097f05012a4258c45558d6b9",
+    "https://lxfrdl.github.io/mentalo/assets/audio/anfg2.mp3": "cf14236f6353f62a3464dcbb83978458990f6bf0",
+    "https://lxfrdl.github.io/mentalo/assets/audio/anfg3.mp3": "add48d79e045cc3d7b63c8f492675f81663c2023",
+    "https://lxfrdl.github.io/mentalo/assets/audio/ende1.mp3": "4768cb87dedd73a4f1c856f23bac902b9f0880f8",
+    "https://lxfrdl.github.io/mentalo/assets/audio/ende2.mp3": "6b9d3c8273b9b399072532f7a8d6ddc8a6a2eaca",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://lxfrdl.github.io/mentalo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://lxfrdl.github.io/mentalo/assets/img/m1.png": "e51abef7a446cfe9607dfe9369489de40c3215c9",
+    "https://lxfrdl.github.io/mentalo/assets/img/m2.png": "e3bda3764ae74aef53aba78917d2f8581072c02d",
+    "https://lxfrdl.github.io/mentalo/es2015-polyfills.4a4cfea0ce682043f4e9.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "https://lxfrdl.github.io/mentalo/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://lxfrdl.github.io/mentalo/index.html": "5d359c7c9ca6a423cd01aef2066cadbf124b0ae8",
+    "https://lxfrdl.github.io/mentalo/main.f7bfdc9547a200a66a5a.js": "9a2aa21d27f5bb1d0e2b8f4a85ca753e414065be",
+    "https://lxfrdl.github.io/mentalo/polyfills.407a467dedb63cfdd103.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "https://lxfrdl.github.io/mentalo/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://lxfrdl.github.io/mentalo/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
