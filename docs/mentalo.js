@@ -2,6 +2,7 @@ class Mentalo {
     constructor() {
         this.inProgress = false;
         this.mentaloImg = document.getElementById('mentalo-img');
+        this.resultText = document.getElementById('result-text');
         this.mentaloImg.addEventListener('click', () => this.onClick());
         this.updateImage();
     }
@@ -12,6 +13,8 @@ class Mentalo {
         }
         this.inProgress = true;
         this.updateImage();
+        this.resultText.textContent = ''; // Clear the result text
+        this.resultText.classList.remove('show'); // Hide the result text
         this.playRandomAnfang()
             .then(() => this.playRandomEnde())
             .then(() => {
@@ -28,6 +31,12 @@ class Mentalo {
             audio.onerror = reject;
             audio.onended = resolve;
             audio.src = `audio/${prefix}${this.randomInRange(min, max)}.mp3`;
+            if (prefix === 'ende') {
+                audio.onplay = () => {
+                    this.resultText.textContent = audio.src.includes('ende1') ? 'NEIN' : 'JA';
+                    this.resultText.classList.add('show'); // Show the result text
+                };
+            }
         });
     }
 

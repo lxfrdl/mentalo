@@ -10,6 +10,7 @@ body {
     width: 200px;
     height: auto;
     transition: transform 0.5s ease-in-out;
+    cursor: pointer; /* Add this line to change the cursor on hover */
 }
 
 #mentalo-img.in-progress {
@@ -23,4 +24,17 @@ body {
     to {
         transform: rotate(360deg);
     }
+}
+
+#result-text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c; /* Red color for the text */
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0; /* Initially hidden */
+}
+
+#result-text.show {
+    opacity: 1; /* Show the text when the class 'show' is added */
 }
